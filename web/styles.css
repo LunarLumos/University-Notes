@@ -1,0 +1,307 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and Global Background Color */
+body {
+    color: white; /* Default text color */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+#home {
+    position: relative;
+    overflow: hidden;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white; /* Ensures text is visible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Added shadow for better visibility */
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text contrast */
+    z-index: -1;
+}
+
+/* About Us Section */
+#about {
+    background: url('images/about-banner.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    position: relative;
+    color: white; /* Ensures text is visible */
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Added shadow for better visibility */
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for better readability */
+    padding: 0 10px;
+}
+
+#about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text contrast */
+    z-index: -1;
+}
+
+/* Menu Section */
+#menu {
+    background: url('images/menu-bg.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    color: white; /* Ensures text is visible */
+    position: relative;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Added shadow for better visibility */
+}
+
+#menu p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for better readability */
+    padding: 0 10px;
+}
+
+#menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text contrast */
+    z-index: -1;
+}
+
+/* Menu Items */
+.menu-categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Gallery Section */
+#gallery {
+    background: url('images/gallery-bg.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    color: white; /* Ensures text is visible */
+    position: relative;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Added shadow for better visibility */
+}
+
+#gallery p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for better readability */
+    padding: 0 10px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Us Section */
+#contact {
+    background: url('images/contact-bg.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    color: white; /* Ensures text is visible */
+    position: relative;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Added shadow for better visibility */
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for better readability */
+    padding: 0 10px;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text contrast */
+    z-index: -1;
+}
+
+#contact .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6); /* Form container with dark background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#contact .form-container input,
+#contact .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#contact .form-container button {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact .form-container button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .social-links li {
+    margin: 0 10px;
+}
+
+footer .social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .social-links li a:hover {
+    color: #f39c12;
+}
