@@ -255,17 +255,12 @@ write memory
 
 ---
 
-#  STEP-5: VERIFY (EXAM FAVORITE)
+#  STEP-5: VERIFY 
 
 ```
 show ip route
 ```
 
-You MUST see:
-
-```
-R 192.168.x.0 [120/…]
-```
 
 ---
 
