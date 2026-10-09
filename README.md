@@ -1,26 +1,79 @@
-# CIS - Computing and Information Science
+<div align="center">
 
-This repository contains my study notes and resources for the **B.Sc. in Computing and Information Science (CIS)** program at **Daffodil International University**. These notes are specifically for the **CIS** the course. The goal of this repository is to provide an organized collection of materials for each subject, which can be useful for my personal study and for sharing with others who are studying similar courses.
+# 📚 University Notes
 
-I have tried to summarize key concepts and topics covered in each subject, but I encourage you to refer to your official course slides, textbooks, and other materials for a deeper understanding.
+### B.Sc. in Computing and Information Science (CIS)
+**Daffodil International University**
 
-## About Me
+![Program](https://img.shields.io/badge/Program-CIS-2ea44f?style=for-the-badge)
+![University](https://img.shields.io/badge/DIU-Daffodil%20International%20University-1f6feb?style=for-the-badge)
+![Notes](https://img.shields.io/badge/Notes-PDF%20%7C%20Labs-8957e5?style=for-the-badge)
 
-- **Name**: Aadil
-- **Institute**: Daffodil International University
-- **Subject**: Computing and Information Science
-- **Email**: aadil025@yahoo.com
+*Organized study notes, lab guides, and resources, semester by semester.*
 
-## Repository Structure
+</div>
 
-```yaml
-CIS:
-  1st_semester:
-    - Computer_Fundamentals
-    - English-I
-    - Introduction_to_Industry_4.0
-    - Structured_Programming
+---
+
+## 🗂️ Semesters
+
+| Semester | Subjects | Contents |
+| :------: | -------- | -------- |
+| 🟢 [**1st Semester**](1st_semester) | Computer Fundamentals · English-I · Industry 4.0 · Structured Programming | 📄 PDF notes |
+| 🔵 [**4th Semester**](4th_Semester) | [Computer Network](4th_Semester/Computer_Network) | 🖧 Packet Tracer labs + step-by-step guides |
+| 🟣 [**7th Semester**](7th_Semester) | [Big Data Analytics](7th_Semester/Big_Data) · [Artificial Intelligence](7th_Semester/AI) | 📄 Lecture notes |
+
+---
+
+## 🌳 Repository Structure
+
+```text
+University-Notes/
+├── 1st_semester/
+│   ├── Cof.pdf                      # Computer Fundamentals
+│   ├── English101.pdf               # English-I
+│   ├── Industry-4.0.pdf             # Introduction to Industry 4.0
+│   └── structured_programming.pdf   # Structured Programming
+│
+├── 4th_Semester/
+│   └── Computer_Network/
+│       ├── Static/                  # Static routing lab
+│       └── Dynamic/                 # RIP v1 · RIP v2 · EIGRP · OSPF labs
+│
+├── 7th_Semester/
+│   ├── Big_Data/                    # Big Data Analytics lecture notes
+│   └── AI/                          # Artificial Intelligence (coming soon)
+│
+└── web/                             # Web project
 ```
-## Disclaimer
 
-**Note**: Some important details might have been skipped. I encourage you to refer to your course slides and materials for further study.
+---
+
+## ✨ Highlights
+
+- 🧠 **Big Data Analytics:** beginner-friendly lecture notes with diagrams, memory tricks, and exam questions with answers.
+- 🖧 **Computer Network:** ready-to-run Cisco Packet Tracer (`.pkt`) files with full router commands.
+- 📄 **Foundation courses:** PDF notes from the 1st semester.
+
+---
+
+## 👤 About Me
+
+| | |
+| --- | --- |
+| **Name** | Aadil |
+| **Institute** | Daffodil International University |
+| **Program** | Computing and Information Science |
+| **Email** | aadil025@yahoo.com |
+
+---
+
+## ⚠️ Disclaimer
+
+These notes summarize the key concepts of each course. Some details may be skipped, so always check your **official course slides, textbooks, and class materials** for complete understanding.
+
+<div align="center">
+
+⭐ **If these notes helped you, consider giving the repo a star!** ⭐
+
+</div>

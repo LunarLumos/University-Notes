@@ -1,4 +1,19 @@
-## STATIC 5 ROUTER, 5 SWITCG AND 10 DEVICES
+<div align="center">
+
+# 🔒 Static Routing Lab
+
+![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Routing](https://img.shields.io/badge/Routing-Static-success?style=for-the-badge)
+
+**5 Routers · 5 Switches · 10 PCs**
+
+📦 Packet Tracer file: [`STATIC_CLI.pkt`](STATIC_CLI.pkt)
+
+</div>
+
+---
+
+## 🧭 Setup
 
 * **Fa0/0** for LAN
 * **Serial (Se)** for WAN
@@ -206,3 +221,9 @@ ping 192.168.5.2
 ---
 
 
+
+<div align="center">
+
+[⬅️ Back to Computer Network](../README.md)
+
+</div>
