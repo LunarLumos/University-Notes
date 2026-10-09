@@ -1,34 +1,59 @@
-<div align="center">
+# 7TH SEMESTER
+---
 
-# 🟣 7th Semester
+#  BIG DATA ANALYTICS & APPLICATIONS
 
-![Big Data](https://img.shields.io/badge/Big%20Data-Analytics-orange?style=for-the-badge)
-![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-blueviolet?style=for-the-badge)
-
-</div>
+| Lecture | Topic | Notes |
+| ------- | ----- | ----- |
+| 01 | The Evolution of Big Data | [PDF](Big_Data/BigData_Lecture01_Notes.pdf) |
+| 02 | The 6 Vs & Data Integration | [PDF](Big_Data/BigData_Lecture02_Notes.pdf) |
+| 03 | Distributed Storage & File Systems | [PDF](Big_Data/BigData_Lecture03_Notes.pdf) |
 
 ---
 
-## 📊 [Big Data Analytics & Applications](Big_Data)
+##  LECTURE 01: THE EVOLUTION OF BIG DATA
 
-Beginner-friendly notes in a handwritten style, with simple explanations, diagrams, memory tricks, and exam questions with answers.
-
-| # | Lecture | Topics | Notes |
-| :-: | ------- | ------ | :---: |
-| 01 | **The Evolution of Big Data** | Data eras · RDBMS limits · Scale-Up vs Scale-Out · Schema-on-Write/Read · ACID vs BASE · Data types · Data Lake · 6 Vs | [📄 PDF](Big_Data/BigData_Lecture01_Notes.pdf) |
-| 02 | **The 6 Vs & Data Integration** | Volume · Velocity · Variety · Veracity · Valence · Value · Parquet · ETL vs ELT · Kafka · Lambda vs Kappa | [📄 PDF](Big_Data/BigData_Lecture02_Notes.pdf) |
-| 03 | **Distributed Storage & File Systems** | CAP theorem · HDFS · NameNode & DataNode · Replication · Rack awareness · File formats · Lakehouse | [📄 PDF](Big_Data/BigData_Lecture03_Notes.pdf) |
-
----
-
-## 🤖 [Artificial Intelligence](AI)
-
-> 🚧 **Coming soon.** Notes will be added as the course progresses.
+* Data eras: **Companies → People → Machines**
+* RDBMS limits, **Scale-Up vs Scale-Out**
+* **Schema-on-Write vs Schema-on-Read**
+* **ACID vs BASE**
+* Structured, semi-structured, unstructured data
+* Data Warehouse vs Data Lake
+* Data locality, partitioning, replication, batch vs stream
 
 ---
 
-<div align="center">
+##  LECTURE 02: THE 6 Vs & DATA INTEGRATION
 
-[⬅️ Back to all semesters](../README.md)
+* **Volume, Velocity, Variety, Veracity, Valence, Value**
+* Row vs column storage, **Parquet**
+* **ETL vs ELT**
+* **Kafka**: topics, partitions, offsets
+* **Lambda vs Kappa** architecture
 
-</div>
+---
+
+##  LECTURE 03: DISTRIBUTED STORAGE & FILE SYSTEMS
+
+* **CAP theorem**
+* **HDFS**: NameNode, DataNodes, 128 MB blocks
+* Read / write pipeline, **3x replication**, rack awareness
+* File formats, **projection & predicate pushdown**, compression
+* HDFS vs cloud storage, **Lakehouse**
+
+---
+
+#  ARTIFICIAL INTELLIGENCE
+
+Coming soon.
+
+---
+
+#  QUICK MEMORY
+
+* Scale-Up = **bigger machine**, Scale-Out = **more machines**
+* ETL = **clean → store**, ELT = **store → clean**
+* CAP = pick **2 of 3**
+* NameNode = **metadata**, DataNode = **data**
+
+---
