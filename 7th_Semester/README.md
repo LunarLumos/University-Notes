@@ -45,7 +45,30 @@
 
 #  ARTIFICIAL INTELLIGENCE
 
-Coming soon.
+| Lecture | Topic | Notes |
+| ------- | ----- | ----- |
+| 00 | Search | [PDF](AI/AI_Lecture00_Notes.pdf) |
+| 02 | Introduction to AI, Human Perception & Logic | [PDF](AI/AI_Lecture02_Notes.pdf) |
+
+---
+
+##  LECTURE 00: SEARCH
+
+* Search problem: **initial state, actions, transition model, goal test, path cost**
+* Node, frontier, explored set
+* **DFS (stack) vs BFS (queue)**
+* Heuristics, **Greedy Best-First vs A\*** (`g(n) + h(n)`)
+* **Minimax**, Alpha-Beta Pruning, depth-limited search
+
+---
+
+##  LECTURE 02: INTRODUCTION TO AI, HUMAN PERCEPTION & LOGIC
+
+* Human vs artificial intelligence, the **5 components of AI**
+* Agents and **PEAS**, types of environments
+* Challenges and limitations of AI
+* Perceptron, ML / DL / NLP / Computer Vision terms
+* **Precision, Recall, F1**, gradient descent, Turing Test
 
 ---
 
@@ -55,5 +78,8 @@ Coming soon.
 * ETL = **clean → store**, ELT = **store → clean**
 * CAP = pick **2 of 3**
 * NameNode = **metadata**, DataNode = **data**
+* DFS = **go deep (stack)**, BFS = **go wide (queue)**
+* A\* = **cost so far + guess to go**
+* PEAS = **Performance, Environment, Actuators, Sensors**
 
 ---
